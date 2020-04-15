@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/global.css">
+	<link rel="stylesheet" type="text/css" href="css/font.css">
+	<link rel="icon" type="image/gif/png" href="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>hello dear elle</title>
+</head>
+<body  onload="home()">
+	<div class="header" id="header">
+			<div>
+				<a class="logo" href=""><img src="image/logo.png" alt="Logo"></a>
+			</div>
+			<div class="navContainer">
+				<ul>
+					<li><a class="nav" id="nav1" onclick="lookbook()" href="#header">Lookbook</a></li>
+					<li><a class="nav" id="nav2" onclick="aboutUs()" href="#header">About Us</a></li>
+					<li><a class="nav" id="nav3" href="#header">Collection</a>
+						<ul>
+							<li><a onclick="earrings()" href="#header">Earrings</a></li>
+							<li><a onclick="necklaces()" href="#header">Necklaces</a></li>
+							<li><a onclick="rings()" href="#header">Rings</a></li>
+						</ul>
+					</li>
+					<li><a class="nav" id="nav4" onclick="home()" href="#header">Home</a></li>
+				</ul>
+			</div>
+	</div>
+	<div class="home" id="home">
+		<div class="mainContainer" id="mainContainer">
+			<div class="containerSatu">
+				<img class="background" src="image/home/home1.png">
+				<div class="kiri">
+					<div class="welcome">
+						<h1>Welcome!</h1>
+						<p>Like the circle of life, topaz sitting repetitively on the double band. Create your classic look with our Collection.</p>
+					</div>
+					<a class="button1" onclick="necklaces()" href="#header">Shop Collection</a>
+				</div>
+			</div>
+			<div class="containerDua">
+				<div class="cover2">
+					<img class="background" src="image/home/home2.png">
+					<div class="deskripsi"><p><b><i>Jewellery makes the best gift for any occasion, for you or your loved ones.</i></b></p>
+						<p style="margin-bottom: 4vw;"><b><i>Find your best gift ideas here</i></b></p><a class="button1" onclick="earrings()" href="#header">Shop Collection</a>
+					</div>
+				</div>
+			</div>
+			<div class="containerTiga">
+				<div class="cover3">
+					<img class="background" src="image/home/home3.png">
+				</div>
+				<div class="kanan" style="margin: 0; background-color: #E9BAAF;">
+					<img style="width: 100%;" src="image/home/home4.png">
+					<h2 style="text-align: center;">CLASSIC EDITION</h2>
+				</div>
+			</div>
+			<div class="containerEmpat">
+				<h1 class="subJudul1">Recommendation For You</h1>
+				<div class="kiriKiri"><img style="width: 100%;" src="image/home/home5.png">
+					<p class="colJudul">MORGANITE Earrings</p>
+					<p style="margin-bottom: 15%;">Rp. 300.000</p>
+					<a class="button1" onclick="earrings()" href="#details1">See More</a>
+				</div>
+				<div class="tengah">
+					<img style="width: 100%;" src="image/home/home6.png">
+					<p class="colJudul">DOTS Earing</p>
+					<p style="margin-bottom: 15%;">Rp. 300.000</p>
+					<a class="button1" href="#details2" onclick="earrings()">See More</a>
+				</div>
+				<div class="kananKanan">
+					<img style="width: 100%;" src="image/home/home7.png">
+					<p class="colJudul">LONG Necklaces</p><p style="margin-bottom: 15%;">Rp. 300.000</p>
+					<a class="button1" href="#details3" onclick="necklaces()">See More</a>
+				</div>
+			</div>
+		</div>
+		<div class="footer" id="footer">
+			<div class="kiriF">
+				<div class="footerDesc">
+					<p>Dear Elle is inspired by the little things that made us love jewellery. We work together with talented local craftswomen to make it close to your heart.</p>
+				</div>
+			</div>
+			<div class="kananF">
+				<p class="follow"><b>Follow Us</b></p>
+				<p class="insta">Instagram : @dearelleofficial</p>
+				<p class="whatsapp">Whatsapp : 08129398777</p>
+				<p class="email">Email :dearelle@gmail.com</p>
+			</div>
+			<p class="copyRight">Copyright © 2020, Dear Elle. Powered by Shopify</p>
+		</div>
+	</div>
+	<div class="earrings" id="earrings">
+		<div class="mainContainer" id="mainContainer">
+			<div class="subMenu">
+				<h1 class="judulCol">Earrings</h1>
+				<div class="kiriCol">
+					<div class="gambarCol1" id="gambarCol1">
+					</div>
+					<div class="descCol">
+						<p class="colSub" style="margin-bottom: 1vw;">MORGANITE <br> Earrings</p>
+						<p style="margin-top: 0;">Rp. 300.000</p>
+						<a class="button1" id="ear1" href="#details1" onclick="showDetails(ear1)">Details</a>
+					</div>
+				</div>
+				<div class="kananCol">
+					<div class="gambarCol2" id="gambarCol2">
+					</div>
+					<div class="descCol">
+						<p class="colSub" style="margin-bottom: 1vw;">DOTS <br> Earrings</p>
+						<p style="margin-top: 0;">Rp. 300.000</p>
+						<a class="button1" id="ear2" href="#details2" onclick="showDetails(ear2)">Details</a>
+					</div>
+				</div>
+			</div>
+			<div class="details1" id="details1">
+				<h1 class="judulCol">Details</h1>
+				<div class="kiriCol">
+					<img src="image/earrings/ear3.png" style="width: 100%;">
+				</div>
+				<div class="kananCol">
+					<div class="detCol">
+						<p class="detailsSub">MORGANITE Earrings</p>
+						<p style="margin-top: 0;margin-bottom: 10%;">Rp. 400.000</p>
+						<p>- Sterling silver base </p>
+						<p>- Dipped in 18k yellow gold, 14k rose gold <br>&nbsp; &nbsp;and white rhodium</p>
+						<p>- Natural colored gemstones:</p>
+						<p>- Natural colorless topaz</p>
+						<p>- Natural morganite</p>
+					</div>
+				</div>
+			</div>
+			<div class="details2" id="details2">
+				<h1 class="judulCol">Details</h1>
+				<div class="kiriCol">
+					<img src="image/earrings/ear4.png" style="width: 100%;">
+				</div>
+				<div class="kananCol">
+					<div class="detCol">
+						<p class="detailsSub">DOTS Earrings</p>
+						<p style="margin-top: 0;margin-bottom: 0;">Rp. 300.000</p>
+						<p style="margin-top: 0;margin-bottom: 10%;">Color: pink, green</p>
+						<p>- Sterling silver base </p>
+						<p>- Dipped in 18k yellow gold, 14k rose gold <br>&nbsp; &nbsp;and white rhodium</p>
+						<p>- Natural colored gemstones:</p>
+						<p>- Natural colorless topaz</p>
+						<p>- Natural pink sapphire</p>
+						<p>- Natural green garnet (tsavorite)</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footerCol" id="footer">
+			<div class="kiriF">
+				<div class="footerDesc">
+					<p>Dear Elle is inspired by the little things that made us love jewellery. We work together with talented local craftswomen to make it close to your heart.</p>
+				</div>
+			</div>
+			<div class="kananF">
+				<p class="follow"><b>Follow Us</b></p>
+				<p class="insta">Instagram : @dearelleofficial</p>
+				<p class="whatsapp">Whatsapp : 08129398777</p>
+				<p class="email">Email :dearelle@gmail.com</p>
+			</div>
+			<p class="copyRight">Copyright © 2020, Dear Elle. Powered by Shopify</p>
+		</div>
+	</div>
+	<div class="necklaces" id="necklaces">
+		<div class="mainContainer" id="mainContainer">
+			<div class="subMenu">
+				<h1 class="judulCol">Necklaces</h1>
+				<div class="kiriCol">
+					<div class="gambarCol1" id="gambarCol1">
+					</div>
+					<div class="descCol">
+						<p class="colSub" style="margin-bottom: 3%;">LONG <br> Necklace</p>
+						<p style="margin-top: 0;">Rp. 300.000</p><a class="button1" id="ear1" href="#details3" onclick="showDetails(ear1)">Details</a>
+					</div>
+				</div>
+				<div class="kananCol">
+					<div class="gambarCol2" id="gambarCol2"></div>
+					<div class="descCol">
+						<p class="colSub" style="margin-bottom: 3%;">POPPIN <br> Necklace</p>
+						<p style="margin-top: 0;">Rp. 500.000</p>
+						<a class="button1" id="ear2" href="#details4" onclick="showDetails(ear2)">Details</a>
+					</div>
+				</div>
+			</div>
+			<div class="details1" id="details3">
+				<h1 class="judulCol">Details</h1>
+				<div class="kiriCol">
+					<img src="image/necklaces/neck3.png" style="width: 100%;">
+				</div>
+				<div class="kananCol">
+					<div class="detCol">
+						<p class="detailsSub">LONG Necklace</p>
+						<p style="margin-top: 0;margin-bottom: 0%;">Rp. 300.000</p>
+						<p style="margin-top: 0;margin-bottom: 10%;">Color: yellow gold, rose gold, and <br>white rhodium</p>
+						<p>Jewellery makes the best gift for any <br>occasion, for you or your loved ones. <br> Find your best gift ideas here.Jewellery<br> makes the best gift for any occasion, for <br>you or your loved ones. Find your best<br> gift ideas here.</p>
+					</div>
+				</div>
+			</div>
+			<div class="details2" id="details4">
+				<h1 class="judulCol">Details</h1>
+				<div class="kiriCol"><img src="image/necklaces/neck4.png" style="width: 100%;">
+				</div>
+				<div class="kananCol">
+					<div class="detCol">
+						<p class="detailsSub">POPPIN Necklace</p>
+						<p style="margin-top: 0;margin-bottom: 0;">Rp. 500.000</p>
+						<p style="margin-top: 0;margin-bottom: 10%;">Color: yellow gold, rose gold, and <br>white rhodium</p>
+						<p>Jewellery makes the best gift for any <br>occasion, for you or your loved ones. <br> Find your best gift ideas here.Jewellery<br> makes the best gift for any occasion, for <br>you or your loved ones. Find your best<br> gift ideas here.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footerCol" id="footer">
+			<div class="kiriF">
+				<div class="footerDesc">
+					<p>Dear Elle is inspired by the little things that made us love jewellery. We work together with talented local craftswomen to make it close to your heart.</p>
+				</div>
+			</div>
+			<div class="kananF">
+				<p class="follow"><b>Follow Us</b></p>
+				<p class="insta">Instagram : @dearelleofficial</p>
+				<p class="whatsapp">Whatsapp : 08129398777</p>
+				<p class="email">Email :dearelle@gmail.com</p>
+			</div>
+			<p class="copyRight">Copyright © 2020, Dear Elle. Powered by Shopify</p>
+		</div>
+	</div>
+	<div class="rings" id="rings">
+		<div class="header" id="header">
+			<div>
+				<a class="logo" href=""><img src="image/logo.png" alt="Logo"></a>
+			</div>
+			<div class="navContainer">
+				<ul>
+					<li><a class="nav" id="nav1" onclick="lookbook()" href="#header">Lookbook</a></li>
+					<li><a class="nav" id="nav2" onclick="aboutUs()" href="#header">About Us</a></li>
+					<li><a class="nav" id="nav3" href="#header">Collection</a>
+						<ul>
+							<li><a onclick="earrings()" href="#header">Earings</a></li>
+							<li><a onclick="necklaces()" href="#header">Necklaces</a></li>
+							<li><a onclick="rings()" href="#header">Rings</a></li>
+						</ul>
+					</li>
+					<li><a class="nav" id="nav4" onclick="home()" href="#header">Home</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="mainContainer" id="mainContainer">
+			<div class="subMenu">
+				<h1 class="judulCol">Rings</h1>
+				<div class="kiriCol">
+					<div class="gambarCol1" id="gambarCol1">
+					</div>
+					<div class="descCol">
+						<p class="colSub" style="margin-bottom: 3%;">THREEWISH <br> Rings</p>
+						<p style="margin-top: 0;">Rp. 300.000</p>
+						<a class="button1" id="ear1" href="#details5" onclick="showDetails(ear1)">Details</a>
+					</div>
+				</div>
+				<div class="kananCol">
+					<div class="gambarCol2" id="gambarCol2">
+					</div><div class="descCol">
+						<p class="colSub" style="margin-bottom: 3%;">CARNIVAL <br> Rings</p>
+						<p style="margin-top: 0;">Rp. 300.000</p><a class="button1" id="ear2" href="#details6" onclick="showDetails(ear2)">Details</a>
+					</div>
+				</div>
+			</div>
+			<div class="details1" id="details5">
+				<h1 class="judulCol">Details</h1>
+				<div class="kiriCol"><img src="image/rings/ring3.png" style="width: 100%;">
+				</div>
+				<div class="kananCol">
+					<div class="detCol">
+						<p class="detailsSub">THREEWISH Rings</p>
+						<p style="margin-top: 0;margin-bottom: 0%;">Rp. 300.000</p>
+						<p style="margin-top: 0;margin-bottom: 10%;">Color: yellow gold, rose gold, and <br>white rhodium</p>
+						<p>- Three colorless topaz sit on sterling silver band.</p>
+						<p>- Size: <br>&nbsp;&nbsp; US 6/Asia 11: 16.5 mm <br>&nbsp;&nbsp; US 7/Asia 14: 17.3 mm</p>
+						<p>- Sterling silver base</p>
+						<p>- Natural colorless topaz</p>
+					</div>
+				</div>
+			</div>
+			<div class="details2" id="details6">
+				<h1 class="judulCol">Details</h1>
+				<div class="kiriCol">
+					<img src="image/rings/ring4.png" style="width: 100%;">
+				</div>
+				<div class="kananCol">
+					<div class="detCol">
+						<p class="detailsSub">CARNIVAL Rings</p>
+						<p style="margin-top: 0;margin-bottom: 0;">Rp. 500.000</p>
+						<p style="margin-top: 0;margin-bottom: 10%;">Color: yellow gold, rose gold, and <br>white rhodium</p>
+						<p>- Three colorless topaz sit on sterling silver band.</p>
+						<p>- Size: <br>&nbsp;&nbsp; US 6/Asia 11: 16.5 mm <br>&nbsp;&nbsp; US 7/Asia 14: 17.3 mm</p>
+						<p>- Sterling silver base</p>
+						<p>- Natural colorless topaz</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footerCol" id="footer">
+			<div class="kiriF">
+				<div class="footerDesc">
+					<p>Dear Elle is inspired by the little things that made us love jewellery. We work together with talented local craftswomen to make it close to your heart.</p>
+				</div>
+			</div>
+			<div class="kananF">
+				<p class="follow"><b>Follow Us</b></p>
+				<p class="insta">Instagram : @dearelleofficial</p>
+				<p class="whatsapp">Whatsapp : 08129398777</p>
+				<p class="email">Email :dearelle@gmail.com</p>
+			</div>
+			<p class="copyRight">Copyright © 2020, Dear Elle. Powered by Shopify</p>
+		</div>
+	</div>
+	<div class="aboutUs" id="aboutUs">
+		<div class="mainContainer" id="mainContainer">
+			<div class="about">
+				<h1 class="judulCol">About Us</h1>
+				<div class="kiriA">
+					<div class="gambarA" id="gambarCol1">
+					</div>
+				</div>
+				<div class="kananA">
+					<div class="descA">
+						<p>Dear Elle was founded with the aim of disrupting the jewellery industry. Style consciousness and distinct quality make up our essence: a curated fashion brand that joins contemporary women in their ever-changing journey. Dear Elle embraces a kind of femininity that escapes from conventions: built upon a set of powerful beliefs, we seek to redefine what it means to be a woman: a duality of forces that, far from being antagonistic, coexist in balance. </p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footerA" id="footer">
+			<div class="kiriF">
+				<div class="footerDesc">
+					<p>Dear Elle is inspired by the little things that made us love jewellery. We work together with talented local craftswomen to make it close to your heart.</p>
+				</div>
+			</div>
+			<div class="kananF">
+				<p class="follow"><b>Follow Us</b></p>
+				<p class="insta">Instagram : @dearelleofficial</p>
+				<p class="whatsapp">Whatsapp : 08129398777</p>
+				<p class="email">Email :dearelle@gmail.com</p>
+			</div>
+			<p class="copyRight">Copyright © 2020, Dear Elle. Powered by Shopify</p>
+		</div>
+	</div>
+	<div class="lookbook" id="lookbook">
+		<div class="mainContainer" id="mainContainer">
+			<div class="look">
+				<div class="sliderContainer">
+					<img id="sliderImage" src="image/lookbook/look1.png" style="width: 100%;">
+					<a class="prev" onclick="prev()">&#10094;</a>
+					<a class="next" onclick="next()">&#10095;</a>
+				</div>
+			</div>
+		</div>
+		<div class="footerA" id="footer">
+			<div class="kiriF">
+				<div class="footerDesc">
+					<p>Dear Elle is inspired by the little things that made us love jewellery. We work together with talented local craftswomen to make it close to your heart.</p>
+				</div>
+			</div>
+			<div class="kananF">
+				<p class="follow"><b>Follow Us</b></p>
+				<p class="insta">Instagram : @dearelleofficial</p>
+				<p class="whatsapp">Whatsapp : 08129398777</p>
+				<p class="email">Email :dearelle@gmail.com</p>
+			</div>
+			<p class="copyRight">Copyright © 2020, Dear Elle. Powered by Shopify</p>
+		</div>
+	</div>
+	<script>
+		function home() {
+			document.getElementById('home').style.display = 'block';
+			document.getElementById('earrings').style.display = 'none';
+			document.getElementById('necklaces').style.display = 'none';
+			document.getElementById('rings').style.display = 'none';
+			document.getElementById('aboutUs').style.display = 'none';
+			document.getElementById('lookbook').style.display = 'none';
+			document.getElementById("navSub1").id = "nav1";
+			document.getElementById("navSub2").id = "nav2";
+			document.getElementById("navSub3").id = "nav3";
+			document.getElementById("navSub4").id = "nav4";
+		}
+		function earrings() {
+			document.getElementById('home').style.display = 'none';
+			document.getElementById('earrings').style.display = 'block';
+			document.getElementById('necklaces').style.display = 'none';
+			document.getElementById('rings').style.display = 'none';
+			document.getElementById('aboutUs').style.display = 'none';
+			document.getElementById('lookbook').style.display = 'none';
+			document.getElementById("gambarCol1").style.backgroundImage = "url('image/earrings/ear1.png')";
+			document.getElementById("gambarCol2").style.backgroundImage = "url('image/earrings/ear2.png')";
+			document.getElementById("nav1").id = "navSub1";
+			document.getElementById("nav2").id = "navSub2";
+			document.getElementById("nav3").id = "navSub3";
+			document.getElementById("nav4").id = "navSub4";
+		}
+		function necklaces() {
+			document.getElementById('home').style.display = 'none';
+			document.getElementById('earrings').style.display = 'none';
+			document.getElementById('necklaces').style.display = 'block';
+			document.getElementById('rings').style.display = 'none';
+			document.getElementById('aboutUs').style.display = 'none';
+			document.getElementById('lookbook').style.display = 'none';
+			document.getElementById("gambarCol1").style.backgroundImage = "url('image/necklaces/neck1.png')";
+			document.getElementById("gambarCol2").style.backgroundImage = "url('image/necklaces/neck2.png')";
+			document.getElementById("nav1").id = "navSub1";
+			document.getElementById("nav2").id = "navSub2";
+			document.getElementById("nav3").id = "navSub3";
+			document.getElementById("nav4").id = "navSub4";
+		}
+		function rings() {
+			document.getElementById('home').style.display = 'none';
+			document.getElementById('earrings').style.display = 'none';
+			document.getElementById('necklaces').style.display = 'none';
+			document.getElementById('rings').style.display = 'block';
+			document.getElementById('aboutUs').style.display = 'none';
+			document.getElementById('lookbook').style.display = 'none';
+			document.getElementById("gambarCol1").style.backgroundImage = "url('image/rings/ring1.png')";
+			document.getElementById("gambarCol2").style.backgroundImage = "url('image/rings/ring2.png')";
+			document.getElementById("nav1").id = "navSub1";
+			document.getElementById("nav2").id = "navSub2";
+			document.getElementById("nav3").id = "navSub3";
+			document.getElementById("nav4").id = "navSub4";
+		}
+
+		function aboutUs() {
+			document.getElementById('home').style.display = 'none';
+			document.getElementById('earrings').style.display = 'none';
+			document.getElementById('necklaces').style.display = 'none';
+			document.getElementById('rings').style.display = 'none';
+			document.getElementById('aboutUs').style.display = 'block';
+			document.getElementById('lookbook').style.display = 'none';
+			document.getElementById("nav1").id = "navSub1";
+			document.getElementById("nav2").id = "navSub2";
+			document.getElementById("nav3").id = "navSub3";
+			document.getElementById("nav4").id = "navSub4";
+		}
+
+		function lookbook() {
+			document.getElementById('home').style.display = 'none';
+			document.getElementById('earrings').style.display = 'none';
+			document.getElementById('necklaces').style.display = 'none';
+			document.getElementById('rings').style.display = 'none';
+			document.getElementById('aboutUs').style.display = 'none';
+			document.getElementById('lookbook').style.display = 'block';
+			document.getElementById("nav1").id = "navSub1";
+			document.getElementById("nav2").id = "navSub2";
+			document.getElementById("nav3").id = "navSub3";
+			document.getElementById("nav4").id = "navSub4";
+		}
+
+		var	n = 0;
+
+		function prev() {
+			if (n == 0) {
+				n = 4;
+			} else {
+				n = n-1;
+			}
+			showSlide(n);
+		}
+
+		function next() {
+			if (n == 4) {
+				n = 0;
+			} else {
+				n = n+1;
+			}
+			showSlide(n);
+		}
+
+		function showSlide(n) {
+			if (n==0) {
+				document.getElementById('sliderImage').src = "image/lookbook/look1.png";
+			}
+			if (n==1) {
+				document.getElementById('sliderImage').src = "image/lookbook/look2.png";
+			}
+			if (n==2) {
+				document.getElementById('sliderImage').src = "image/lookbook/look3.png";
+			}
+			if (n==3) {
+				document.getElementById('sliderImage').src = "image/lookbook/look4.png";
+			}
+			if (n==4) {
+				document.getElementById('sliderImage').src = "image/lookbook/look5.png";
+			}
+		}
+</script>
+</body>
+</html>

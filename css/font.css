@@ -1,0 +1,136 @@
+@font-face{
+	font-family: Dd;
+	src: url(../font/Didot.ttf);
+}
+
+@font-face{
+	font-family: Dm;
+	src: url(../font/Didot Medium.otf);
+}
+
+@font-face{
+	font-family: Db;
+	src: url(../font/Didot Bold.otf);
+}
+
+body {
+	font-family: Dd;
+}
+
+ul li a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 1.3vw;
+}
+
+.navContainer {
+	font-family: Db;
+}
+
+.welcome {
+	font-size: 2vw;
+}
+
+.welcome p {
+	line-height: 100%;
+}
+
+.deskripsi {
+	line-height: 50%;
+	font-size: 2vw;
+}
+
+.button1 {
+	font-size: 2vw;
+}
+
+.kanan h2 {
+	font-size: 2vw;
+	font-weight: bold;
+}
+
+.containerEmpat {
+	line-height: 50%;
+	font-size: 1.5vw;
+}
+
+.subJudul1 {
+	font-size: 4vw;
+}
+
+.colJudul {
+	font-weight: bold;
+}
+
+.subMenu {
+	line-height: 150%;
+}
+
+.judulCol {
+	color: #E9B9AE;
+	font-size: 4vw;
+}
+
+.colSub{
+	color: #D3978D;
+	font-family: Dd;
+	font-weight: bold;
+	font-size: 2vw;
+	margin-bottom: 0;
+}
+
+.detailsSub{
+	color: #D3978D;
+	font-weight: bold;
+	font-size: 3vw;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.descCol {
+	color: #D3978D;
+	font-size: 2vw;
+}
+
+.detCol {
+	color: #D3978D;
+	font-size: 2vw;
+}
+
+.descA {
+	font-size: 2vw;
+}
+
+.next , .prev {
+	color: white;
+  	font-weight: bold;
+  	font-size: 2vw;
+}
+
+.footer, .footerA, .footerCol {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1vw;
+}
+
+@media only screen and (max-width: 600px) {
+	ul li a {
+		font-family: Arial, Helvetica, sans-serif;
+		font-weight: bold;
+		font-size: 2vw;
+	}
+	.deskripsi {
+		line-height: 120%;
+		font-size: 2vw;
+	}
+
+	.deskripsi p {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+
+	.footer {
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 2vw;
+	}
+
+}
